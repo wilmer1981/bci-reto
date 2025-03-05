@@ -16,7 +16,6 @@ Modelos y Entidades (modelos y entidades): Representan los datos, como Usuario y
 # Patrones de Diseño
 
 Para mejorar la modularidad y escalabilidad, se han aplicado los siguientes patrones:
-
 MVC: Separa la lógica de negocio de las solicitudes HTTP y los modelos de datos.
 Inyección de Dependencias: Facilita la gestión de componentes mediante Spring Boot.
 Builder: Se usa para la creación de objetos complejos como Usuario.
