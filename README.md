@@ -8,19 +8,30 @@ La aplicación está construida con Spring Boot y emplea una base de datos H2 en
 
 Esta API sigue el patrón Modelo-Vista-Controlador (MVC), y está organizada en los siguientes componentes:
 
+
 Controladores (controlador): Gestionan las solicitudes HTTP y la lógica de negocio.
+
 Servicios (servicios): Encapsulan la lógica de negocio y manipulan los datos.
+
 Repositorios (repositorio): Se encargan del acceso a la base de datos mediante JPA.
+
 Modelos y Entidades (modelos y entidades): Representan los datos, como Usuario y Telefono.
+
 
 # Patrones de Diseño
 
 Para mejorar la modularidad y escalabilidad, se han aplicado los siguientes patrones:
+
 MVC: Separa la lógica de negocio de las solicitudes HTTP y los modelos de datos.
+
 Inyección de Dependencias: Facilita la gestión de componentes mediante Spring Boot.
+
 Builder: Se usa para la creación de objetos complejos como Usuario.
+
 Repositorio: Desacopla el acceso a datos de la lógica de negocio.
+
 Singleton: Se aplica en instancias como el generador de tokens JWT.
+
 
 ## Requisitos
 
