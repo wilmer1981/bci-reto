@@ -44,6 +44,7 @@ Java: Versión 8 o superior.
 
 - POST /usuarios/registro : 
 Permite registrar un nuevo usuario con los siguientes datos en formato json :
+
 {
   "name": "Wilmer Saldaña",
   
@@ -53,9 +54,11 @@ Permite registrar un nuevo usuario con los siguientes datos en formato json :
   
   "phones": [
    {
+   
       "number": "941478859",
       "citycode": "1",
       "contrycode": "51"
+    
     }
   ]
 }
