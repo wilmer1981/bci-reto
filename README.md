@@ -42,12 +42,15 @@ Java: Versión 8 o superior.
 
 ### Registro de Usuario
 
-- POST /usuarios/registrar : 
+- POST /usuarios/registro : 
 Permite registrar un nuevo usuario con los siguientes datos en formato json :
 {
   "name": "Wilmer Saldaña",
+  
   "email": "wilmer.saldana@sermaluc.pe",
+  
   "password": "admin21",
+  
   "phones": [
    {
       "number": "941478859",
