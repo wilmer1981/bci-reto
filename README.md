@@ -71,19 +71,25 @@ Permite registrar un nuevo usuario con los siguientes datos en formato json :
 
 En formato json :
 
+
 {
+
   "id": "uuid-generado",
   "created": "2025-03-05T12:00:00",
   "modified": "2025-03-05T12:00:00",
   "last_login": "2025-03-05T12:00:00",
   "token": "token.jwt.generado",
   "isactive": true
+  
 }
+
 
 # Formato de error
 
 {
+
   "mensaje": "mensaje de error"
+
 }
 
 # Validaciones
