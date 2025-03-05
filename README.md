@@ -25,10 +25,15 @@ Singleton: Se aplica en instancias como el generador de tokens JWT.
 ## Requisitos
 
 Base de datos en memoria: HSQLDB o H2.
+
 Gestión de dependencias: Gradle o Maven.
+
 Persistencia con JPA: EclipseLink, Hibernate u OpenJPA.
+
 Framework: Spring Boot.
+
 Java: Versión 8 o superior.
+
 
 ## Configuración
 
