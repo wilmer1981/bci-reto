@@ -47,23 +47,23 @@ Permite registrar un nuevo usuario con los siguientes datos en formato json :
 
 {
   
-  "name": "Wilmer Saldaña",
+       "name": "Wilmer Saldaña",
   
-  "email": "wilmer.saldana@sermaluc.pe",
+       "email": "wilmer.saldana@sermaluc.pe",
   
-  "password": "admin21",
+       "password": "admin21",
   
-  "phones": [
+       "phones": [
   
-   {
+        {
    
-      "number": "941478859",
-      "citycode": "1",
-      "contrycode": "51"
+           "number": "941478859",
+           "citycode": "1",
+           "contrycode": "51"
      
-   }
+        }
    
-  ]
+       ]
   
 }
 
@@ -74,17 +74,17 @@ En formato json :
 
 {
 
-  "id": "uuid-generado",
+     "id": "uuid-generado",
   
-  "created": "2025-03-05T12:00:00",
+     "created": "2025-03-05T12:00:00",
   
-  "modified": "2025-03-05T12:00:00",
+     "modified": "2025-03-05T12:00:00",
   
-  "last_login": "2025-03-05T12:00:00",
+     "last_login": "2025-03-05T12:00:00",
   
-  "token": "token.jwt.generado",
+     "token": "token.jwt.generado",
   
-  "isactive": true
+     "isactive": true
   
 }
 
@@ -93,7 +93,7 @@ En formato json :
 
 {
 
-  "mensaje": "mensaje de error"
+     "mensaje": "mensaje de error"
 
 }
 
