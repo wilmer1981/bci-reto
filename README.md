@@ -53,7 +53,11 @@ Java: Versión 8 o superior.
 3. Ejecuta la aplicación con Maven.
 4. Accede a la documentación de la API en: 
      http://localhost:8080/swagger-ui.html
-
+5. Accede a H2 Console: 
+     http://localhost:8080/h2-console
+     Usuario: sa
+     Contraseña : (en blanco)
+   
 ## Endpoints
 
 ### Registro de Usuario
