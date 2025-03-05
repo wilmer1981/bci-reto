@@ -34,11 +34,8 @@ Java: Versión 8 o superior.
 ## Configuración
 
 1. Clona este repositorio en tu máquina local.
-
 2. Edita el archivo src/main/resources/application.properties para configurar la base de datos H2.
-
 3. Ejecuta la aplicación con Maven.
-
 4. Accede a la documentación de la API en: 
      http://localhost:8080/swagger-ui.html
 
@@ -46,19 +43,19 @@ Java: Versión 8 o superior.
 
 ### Registro de Usuario
 
-- POST /usuarios/registrar 
+- POST /usuarios/registrar : 
 Permite registrar un nuevo usuario con los siguientes datos en formato json :
 {
-     "name": "Juan Rodriguez",
-     "email": "juan@rodriguez.org",
-     "password": "hunter2",
-     "phones": [
-     {
-          "number": "1234567",
-          "citycode": "1",
-          "contrycode": "57"
-     }
-     ]
+  "name": "Wilmer Saldaña",
+  "email": "wilmer.saldana@sermaluc.pe",
+  "password": "admin21",
+  "phones": [
+   {
+      "number": "941478859",
+      "citycode": "1",
+      "contrycode": "51"
+    }
+  ]
 }
 
 # Respuesta en caso de éxito
