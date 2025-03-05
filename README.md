@@ -53,14 +53,17 @@ Permite registrar un nuevo usuario con los siguientes datos en formato json :
   "password": "admin21",
   
   "phones": [
+  
    {
    
       "number": "941478859",
       "citycode": "1",
       "contrycode": "51"
-    
+      
     }
+    
   ]
+  
 }
 
 # Respuesta en caso de éxito
