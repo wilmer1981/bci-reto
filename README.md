@@ -60,9 +60,9 @@ Permite registrar un nuevo usuario con los siguientes datos en formato json :
       "number": "941478859",
       "citycode": "1",
       "contrycode": "51"
-      
-    }
-    
+     
+   }
+   
   ]
   
 }
