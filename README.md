@@ -46,6 +46,7 @@ Java: Versión 8 o superior.
 Permite registrar un nuevo usuario con los siguientes datos en formato json :
 
 {
+  
   "name": "Wilmer Saldaña",
   
   "email": "wilmer.saldana@sermaluc.pe",
