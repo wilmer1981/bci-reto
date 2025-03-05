@@ -55,7 +55,9 @@ Java: Versión 8 o superior.
      http://localhost:8080/swagger-ui.html
 5. Accede a H2 Console: 
      http://localhost:8080/h2-console
+   
      Usuario: sa
+   
      Contraseña : (en blanco)
    
 ## Endpoints
