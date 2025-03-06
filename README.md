@@ -43,7 +43,7 @@ Persistencia con JPA: EclipseLink, Hibernate u OpenJPA.
 
 Framework: Spring Boot.
 
-Java: Versión 11 o superior.
+Java: Versión 8 o superior.
 
 
 ## Configuración
