@@ -18,7 +18,7 @@ public class UsuarioComponente {
     @Autowired
     private JwtTokenGenerator jwtTokenGenerator;
 
-    public UsuarioE crearUsuarioUC(Usuario usuario){
+    public UsuarioE crearUsuarioUC(Usuario usuario) {
 
         UsuarioE newUsuarioE = new UsuarioE();
         newUsuarioE.setId(UUID.randomUUID());
@@ -43,11 +43,11 @@ public class UsuarioComponente {
         return newUsuarioE;
     }
 
-    private TelefonoE crearTelefonoUC(Telefono telefono){
+    private TelefonoE crearTelefonoUC(Telefono telefono) {
         TelefonoE telefonoE = new TelefonoE();
         telefonoE.setNumber(telefono.getNumber());
         telefonoE.setCitycode(telefono.getCitycode() != null ? telefono.getCitycode() : "");
-        telefonoE.setCountrycode(telefono.getContrycode() != null ? telefono.getContrycode() : "");
+        telefonoE.setContrycode(telefono.getContrycode() != null ? telefono.getContrycode() : "");
         return telefonoE;
     }
 

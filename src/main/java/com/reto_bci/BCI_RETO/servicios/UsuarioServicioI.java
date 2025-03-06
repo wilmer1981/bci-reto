@@ -8,26 +8,25 @@ import com.reto_bci.BCI_RETO.entidades.UsuarioE;
 import com.reto_bci.BCI_RETO.modelos.Usuario;
 import com.reto_bci.BCI_RETO.componentes.UsuarioComponente;
 import com.reto_bci.BCI_RETO.repositorio.UsuarioRepositorio;
-// import com.reto_bci.BCI_RETO.servicios.UsuarioServicio;
 import com.reto_bci.BCI_RETO.util.ExcepcionesUsuario;
 
 import static com.reto_bci.BCI_RETO.util.ConstanteUtil.*;
 
 @Service
-public class UsuarioServicioI implements UsuarioServicio{
+public class UsuarioServicioI implements UsuarioServicio {
 
     @Autowired
     private UsuarioRepositorio usuarioRepositorio;
     @Autowired
     private UsuarioComponente usuarioComponente;
 
-    public UsuarioE RegistroUsuario(Usuario usuario){
+    public UsuarioE RegistroUsuario(Usuario usuario) {
         validarUsuario(usuario);
         UsuarioE newUsuarioE = usuarioComponente.crearUsuarioUC(usuario);
         return usuarioRepositorio.save(newUsuarioE);
     }
 
-    private void validarUsuario(Usuario usuario){
+    private void validarUsuario(Usuario usuario) {
         if (!ValidarEmail(usuario.getEmail())) {
             throw new ExcepcionesUsuario(FORMATO_EMAIL_INVALIDO);
         }
@@ -51,5 +50,5 @@ public class UsuarioServicioI implements UsuarioServicio{
         Matcher passwordMatcher = passwordPattern.matcher(password);
         return passwordMatcher.matches();
     }
-    
+
 }

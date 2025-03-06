@@ -7,13 +7,13 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Telefono")
+@Table(name = "telefono")
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 public class TelefonoE {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(name = "number")
@@ -22,6 +22,6 @@ public class TelefonoE {
     @Column(name = "citycode")
     private String citycode;
 
-    @Column(name = "countrycode")
-    private String countrycode;
+    @Column(name = "contrycode")
+    private String contrycode;
 }
